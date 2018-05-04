@@ -1,0 +1,1505 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2018-05-04 11:14:57</RunStartTime>
+        <Timezone>RTZ 2 (зима)</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>LeanFT Report</ReportTitle>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description>
+                <![CDATA[ ]]>
+            </Description>
+            <StartTime>2018-05-04 11:14:57</StartTime>
+            <Result>Passed</Result>
+            <Links/>
+            <Duration>
+                <![CDATA[00:00:14.126]]>
+            </Duration>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo>
+                    <![CDATA[Microsoft Windows NT 6.2.9200.0]]>
+                </OSInfo>
+                <HostName>
+                    <![CDATA[ASUS-049R]]>
+                </HostName>
+                <NumberOfCores>4</NumberOfCores>
+                <CpuInfo/>
+                <TotalMemory>3883</TotalMemory>
+                <Locale>
+                    <![CDATA[en-US]]>
+                </Locale>
+                <Timezone>
+                    <![CDATA[RTZ 2 (зима)]]>
+                </Timezone>
+                <User>user</User>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>LeanFT</ToolName>
+            <ToolVersion>
+                <![CDATA[14.03]]>
+            </ToolVersion>
+        </Data>
+        <ReportNode type="Package">
+            <Data>
+                <Name>
+                    <![CDATA[com.company]]>
+                </Name>
+                <Description>
+                    <![CDATA[Version: N/A]]>
+                </Description>
+                <StartTime>2018-05-04 11:14:57</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration>
+                    <![CDATA[00:00:13.875]]>
+                </Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>Package</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+            <ReportNode type="Class">
+                <Data>
+                    <Name>
+                        <![CDATA[com.company.LeanFtTest]]>
+                    </Name>
+                    <Description/>
+                    <StartTime>2018-05-04 11:14:57</StartTime>
+                    <Result>Passed</Result>
+                    <Links/>
+                    <Duration>
+                        <![CDATA[00:00:13.875]]>
+                    </Duration>
+                    <Extension>
+                        <Any>
+                            <IconKey>Class</IconKey>
+                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                        </Any>
+                    </Extension>
+                </Data>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name>test</Name>
+                        <Description/>
+                        <StartTime>2018-05-04 11:14:57</StartTime>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Duration>
+                            <![CDATA[00:00:13.870]]>
+                        </Duration>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[Desktop.launchAut]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>perfmon.exe</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-05-04 11:14:57</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>
+                                <![CDATA[00:00:00.000]]>
+                            </Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path/>
+                                        <Operation/>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>perfmon.exe</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Desktop</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                        <FlowTreeNodeCaption>
+                                            <![CDATA[Desktop.<span class='emphasis'>launchAut</span>]]>
+                                        </FlowTreeNodeCaption>
+                                        <FlowTreeNodeTooltip>
+                                            <![CDATA[Desktop.launchAut]]>
+                                        </FlowTreeNodeTooltip>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[SysTreeView32.activateNode]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>2</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-05-04 11:15:01</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>
+                                <![CDATA[00:00:00.638]]>
+                            </Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Системный монитор]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Производительность]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.TreeView</Type>
+                                                <Name>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>activateNode</Operation>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>2</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>TreeView</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Системный монитор]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Производительность]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.TreeView</Type>
+                                                    <Name>
+                                                        <![CDATA[SysTreeView32]]>
+                                                    </Name>
+                                                    <IconKey>TreeView</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[SysTreeView32.activateNode]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>3</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-05-04 11:15:03</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>
+                                <![CDATA[00:00:00.256]]>
+                            </Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Системный монитор]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Производительность\Средства наблюдения\Системный монитор]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.TreeView</Type>
+                                                <Name>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>activateNode</Operation>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>3</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>TreeView</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Системный монитор]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Производительность\Средства наблюдения\Системный монитор]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.TreeView</Type>
+                                                    <Name>
+                                                        <![CDATA[SysTreeView32]]>
+                                                    </Name>
+                                                    <IconKey>TreeView</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[SysTreeView32.activateNode]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>4</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-05-04 11:15:03</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>
+                                <![CDATA[00:00:00.219]]>
+                            </Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Системный монитор]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Производительность\Группы сборщиков данных]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.TreeView</Type>
+                                                <Name>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>activateNode</Operation>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>4</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>TreeView</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Системный монитор]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Производительность\Группы сборщиков данных]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.TreeView</Type>
+                                                    <Name>
+                                                        <![CDATA[SysTreeView32]]>
+                                                    </Name>
+                                                    <IconKey>TreeView</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[SysTreeView32.activateNode]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>5</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-05-04 11:15:04</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>
+                                <![CDATA[00:00:00.257]]>
+                            </Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Системный монитор]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Производительность\Группы сборщиков данных\Особые]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.TreeView</Type>
+                                                <Name>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>activateNode</Operation>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>5</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>TreeView</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Системный монитор]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Производительность\Группы сборщиков данных\Особые]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.TreeView</Type>
+                                                    <Name>
+                                                        <![CDATA[SysTreeView32]]>
+                                                    </Name>
+                                                    <IconKey>TreeView</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[SysTreeView32.activateNode]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>6</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-05-04 11:15:04</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>
+                                <![CDATA[00:00:00.343]]>
+                            </Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Системный монитор]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Производительность\Группы сборщиков данных\Системные]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.TreeView</Type>
+                                                <Name>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>activateNode</Operation>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>6</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>TreeView</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Системный монитор]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Производительность\Группы сборщиков данных\Системные]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.TreeView</Type>
+                                                    <Name>
+                                                        <![CDATA[SysTreeView32]]>
+                                                    </Name>
+                                                    <IconKey>TreeView</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[SysTreeView32.activateNode]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>7</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-05-04 11:15:05</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>
+                                <![CDATA[00:00:00.283]]>
+                            </Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Системный монитор]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Производительность\Группы сборщиков данных\Системные\System Diagnostics (Диагностика системы)]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.TreeView</Type>
+                                                <Name>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>activateNode</Operation>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>7</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>TreeView</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Системный монитор]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Производительность\Группы сборщиков данных\Системные\System Diagnostics (Диагностика системы)]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.TreeView</Type>
+                                                    <Name>
+                                                        <![CDATA[SysTreeView32]]>
+                                                    </Name>
+                                                    <IconKey>TreeView</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[SysTreeView32.activateNode]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>8</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-05-04 11:15:06</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>
+                                <![CDATA[00:00:00.996]]>
+                            </Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Системный монитор]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Производительность\Группы сборщиков данных\Системные\System Performance (Производительность системы)]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.TreeView</Type>
+                                                <Name>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>activateNode</Operation>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>8</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>TreeView</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Системный монитор]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Производительность\Группы сборщиков данных\Системные\System Performance (Производительность системы)]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.TreeView</Type>
+                                                    <Name>
+                                                        <![CDATA[SysTreeView32]]>
+                                                    </Name>
+                                                    <IconKey>TreeView</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[SysTreeView32.activateNode]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>9</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-05-04 11:15:07</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>
+                                <![CDATA[00:00:00.504]]>
+                            </Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Системный монитор]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Производительность\Группы сборщиков данных\Сеансы отслеживания событий]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.TreeView</Type>
+                                                <Name>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>activateNode</Operation>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>9</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>TreeView</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Системный монитор]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Производительность\Группы сборщиков данных\Сеансы отслеживания событий]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.TreeView</Type>
+                                                    <Name>
+                                                        <![CDATA[SysTreeView32]]>
+                                                    </Name>
+                                                    <IconKey>TreeView</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[SysTreeView32.activateNode]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>10</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-05-04 11:15:08</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>
+                                <![CDATA[00:00:00.339]]>
+                            </Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Системный монитор]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Производительность\Группы сборщиков данных\Сеансы отслеживания событий запуска]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.TreeView</Type>
+                                                <Name>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>activateNode</Operation>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>10</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>TreeView</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Системный монитор]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Производительность\Группы сборщиков данных\Сеансы отслеживания событий запуска]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.TreeView</Type>
+                                                    <Name>
+                                                        <![CDATA[SysTreeView32]]>
+                                                    </Name>
+                                                    <IconKey>TreeView</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[SysTreeView32.activateNode]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>11</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-05-04 11:15:08</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>
+                                <![CDATA[00:00:00.231]]>
+                            </Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Системный монитор]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Производительность\Отчеты]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.TreeView</Type>
+                                                <Name>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>activateNode</Operation>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>11</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>TreeView</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Системный монитор]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Производительность\Отчеты]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.TreeView</Type>
+                                                    <Name>
+                                                        <![CDATA[SysTreeView32]]>
+                                                    </Name>
+                                                    <IconKey>TreeView</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[SysTreeView32.activateNode]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>12</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-05-04 11:15:09</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>
+                                <![CDATA[00:00:00.315]]>
+                            </Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Системный монитор]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Производительность\Отчеты\Особые]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.TreeView</Type>
+                                                <Name>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>activateNode</Operation>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>12</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>TreeView</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Системный монитор]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Производительность\Отчеты\Особые]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.TreeView</Type>
+                                                    <Name>
+                                                        <![CDATA[SysTreeView32]]>
+                                                    </Name>
+                                                    <IconKey>TreeView</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[SysTreeView32.activateNode]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>13</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-05-04 11:15:10</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>
+                                <![CDATA[00:00:00.250]]>
+                            </Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Системный монитор]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Производительность\Отчеты\Системные]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.TreeView</Type>
+                                                <Name>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>activateNode</Operation>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>13</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>TreeView</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Системный монитор]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Производительность\Отчеты\Системные]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.TreeView</Type>
+                                                    <Name>
+                                                        <![CDATA[SysTreeView32]]>
+                                                    </Name>
+                                                    <IconKey>TreeView</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[SysTreeView32.activateNode]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>14</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-05-04 11:15:10</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>
+                                <![CDATA[00:00:00.226]]>
+                            </Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Системный монитор]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Производительность\Отчеты\Системные\System Diagnostics]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.TreeView</Type>
+                                                <Name>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>activateNode</Operation>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>14</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[SysTreeView32]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>TreeView</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Системный монитор]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Производительность\Отчеты\Системные\System Diagnostics]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.TreeView</Type>
+                                                    <Name>
+                                                        <![CDATA[SysTreeView32]]>
+                                                    </Name>
+                                                    <IconKey>TreeView</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[Системный монитор.close]]>
+                            </Name>
+                            <Description/>
+                            <StartTime>2018-05-04 11:15:11</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>
+                                <![CDATA[00:00:00.050]]>
+                            </Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name>
+                                                    <![CDATA[Системный монитор]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>close</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[isOwnedWindow]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[false]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[isChildWindow]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[false]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[windowClassRegExp]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[MMCMainFrame]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[windowTitleRegExp]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[Системный монитор]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Window</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[Системный монитор]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                </ReportNode>
+            </ReportNode>
+        </ReportNode>
+    </ReportNode>
+</Results>
