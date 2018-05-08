@@ -3,6 +3,7 @@ package steps;
 import com.hp.lft.sdk.Desktop;
 import com.hp.lft.sdk.GeneralLeanFtException;
 import com.hp.lft.sdk.Keyboard;
+import com.hp.lft.sdk.WaitUntilTestObjectState;
 import com.hp.lft.sdk.stdwin.TreeViewNode;
 import com.hp.lft.sdk.stdwin.Window;
 import src.com.company.ApplicationModel;
@@ -14,6 +15,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
+import static com.hp.lft.sdk.WaitUntilTestObjectState.waitUntil;
+import static junit.framework.TestCase.assertTrue;
+
 public class PerfMonSteps {
 
     private static ApplicationModel appModel;
@@ -21,7 +25,6 @@ public class PerfMonSteps {
 
     public static void start() throws GeneralLeanFtException, InterruptedException {
         Desktop.launchAut("perfmon.exe");
-        Thread.sleep(4000);
         i=1;
         appModel = new ApplicationModel();
         appModel.mainwindow().maximize();
@@ -29,9 +32,27 @@ public class PerfMonSteps {
 
     public static void onlyStepThatWillBeInThisTest() throws GeneralLeanFtException {
         mainwindow.window.sysTreeView32TreeView tree=appModel.mainwindow().window().sysTreeView32TreeView();
-        for (int i=2;i<15;i++){
-            tree.activateNode(i);
-            saveImage();
+        mainwindow.toolbarWindow32ToolBar toolbar = appModel.mainwindow().toolbarWindow32ToolBar();
+
+        //Данный цикл разворачивает все ноды
+        for (int i=0;;i++){
+            try {
+                tree.getVisibleNodes().get(i).expand();
+            } catch (IndexOutOfBoundsException e){
+                break;
+            }
+            toolbar.getButtons().get(0).press();
+        }
+
+        //Данный цикл проходится по всем нодам и если нода не развернута сохраняет скриншот
+        //Если нода развернута, значит это папка и делать скрин не нужно
+        List <TreeViewNode> nodeList =tree.getVisibleNodes();
+        for (int i=0;i<nodeList.size();i++){
+            if (!nodeList.get(i).isExpanded()) {
+                tree.select(i);
+                toolbar.getButtons().get(0).press();
+                saveImage();
+            }
         }
     }
 

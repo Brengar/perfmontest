@@ -36,11 +36,13 @@ public class ApplicationModel extends AppModelBase {		private mainwindow mainwin
 
 		
 			private window window;
+	private toolbarWindow32ToolBar toolbarWindow32ToolBar;
 						public mainwindow(AppModelBase applicationModel) throws GeneralLeanFtException
 		{
 			super(applicationModel);
 
 					window = new window(this, applicationModel);
+		toolbarWindow32ToolBar = new toolbarWindow32ToolBar(this, applicationModel);
 			
 			setDisplayName("SysMon");
 		}
@@ -49,6 +51,7 @@ public class ApplicationModel extends AppModelBase {		private mainwindow mainwin
 			super(parent, applicationModel);
 
 					window = new window(this, applicationModel);
+		toolbarWindow32ToolBar = new toolbarWindow32ToolBar(this, applicationModel);
 
 			setDisplayName("SysMon");
 		}
@@ -65,6 +68,7 @@ public class ApplicationModel extends AppModelBase {		private mainwindow mainwin
 		}
 
 				public window window() { return window; }
+		public toolbarWindow32ToolBar toolbarWindow32ToolBar() { return toolbarWindow32ToolBar; }
 		
 			public class window extends WindowNodeBase
 	{
@@ -128,6 +132,32 @@ public class ApplicationModel extends AppModelBase {		private mainwindow mainwin
 			}
 
 	}
+
+	public class toolbarWindow32ToolBar extends ToolBarNodeBase
+	{
+
+		
+								public toolbarWindow32ToolBar(TestObject parent, AppModelBase applicationModel) throws GeneralLeanFtException
+		{
+			super(parent, applicationModel);
+
+			
+			setDisplayName("ToolbarWindow32");
+		}
+
+		@Override
+		protected com.hp.lft.sdk.stdwin.ToolBarDescription createDescription() throws GeneralLeanFtException{
+			com.hp.lft.sdk.stdwin.ToolBarDescription description = null; 
+			try{
+				description = new com.hp.lft.sdk.stdwin.ToolBarDescription.Builder().nativeClass("ToolbarWindow32").text("").windowId(4098).build();
+			}catch(Exception e){
+				throw new GeneralLeanFtException(e.getMessage(), e);
+			}
+			return description;
+		}
+
+				
+			}
 
 	}
 
@@ -967,6 +997,353 @@ public class ApplicationModel extends AppModelBase {		private mainwindow mainwin
 		public void select(java.lang.String arg0, com.hp.lft.sdk.MouseButton arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
 		{
 			getConcrete().select(arg0, arg1);
+		}
+
+		@Override 
+		public void sendKeys(java.lang.String arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().sendKeys(arg0);
+		}
+
+		@Override 
+		public void sendKeys(java.lang.String arg0, java.util.EnumSet<com.hp.lft.sdk.KeyModifier> arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().sendKeys(arg0, arg1);
+		}
+
+		@Override 
+		public void setDisplayName(java.lang.String arg0)  
+		{
+			getConcrete().setDisplayName(arg0);
+		}
+
+		@Override 
+		public java.awt.Point verifyImageExists(java.awt.image.RenderedImage arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().verifyImageExists(arg0);
+		}
+
+		@Override 
+		public java.awt.Point verifyImageExists(java.awt.image.RenderedImage arg0, byte arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().verifyImageExists(arg0, arg1);
+		}
+
+		@Override 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().verifyImageMatch(arg0);
+		}
+
+		@Override 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, byte arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().verifyImageMatch(arg0, arg1);
+		}
+
+		@Override 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().verifyImageMatch(arg0, arg1);
+		}
+
+		@Override 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, byte arg1, byte arg2) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().verifyImageMatch(arg0, arg1, arg2);
+		}
+
+		@Override 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().verifyImageMatch(arg0, arg1, arg2);
+		}
+
+		@Override 
+		public boolean verifyImageMatch(java.awt.image.RenderedImage arg0, com.hp.lft.sdk.ImageMaskArea arg1, byte arg2, byte arg3) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().verifyImageMatch(arg0, arg1, arg2, arg3);
+		}
+	}
+	
+	public abstract class ToolBarNodeBase extends AppModelNodeBase<com.hp.lft.sdk.stdwin.ToolBar, com.hp.lft.sdk.stdwin.ToolBarDescription> implements com.hp.lft.sdk.stdwin.ToolBar
+	{		
+		public ToolBarNodeBase(TestObject parent, AppModelBase applicationModel) throws GeneralLeanFtException
+		{
+			super(parent, applicationModel);
+		}
+
+		
+
+
+		@Override 
+		public void click() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().click();
+		}
+
+		@Override 
+		public void click(com.hp.lft.sdk.ClickArgs arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().click(arg0);
+		}
+
+		@Override 
+		public void click(com.hp.lft.sdk.MouseButton arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().click(arg0);
+		}
+
+		@Override 
+		public <TChild extends TestObject> TChild describe(java.lang.Class<TChild> arg0, com.hp.lft.sdk.Description arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().describe(arg0, arg1);
+		}
+
+		@Override 
+		public void doubleClick() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().doubleClick();
+		}
+
+		@Override 
+		public void doubleClick(com.hp.lft.sdk.ClickArgs arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().doubleClick(arg0);
+		}
+
+		@Override 
+		public void doubleClick(com.hp.lft.sdk.MouseButton arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().doubleClick(arg0);
+		}
+
+		@Override 
+		public void dragAndDropOn(com.hp.lft.sdk.SupportDragAndDrop arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().dragAndDropOn(arg0);
+		}
+
+		@Override 
+		public void dragAndDropOn(com.hp.lft.sdk.SupportDragAndDrop arg0, com.hp.lft.sdk.DragAndDropArgs arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().dragAndDropOn(arg0, arg1);
+		}
+
+		@Override 
+		public boolean exists() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().exists();
+		}
+
+		@Override 
+		public boolean exists(java.lang.Integer arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().exists(arg0);
+		}
+
+		@Override 
+		public <TChild extends TestObject> TChild[] findChildren(java.lang.Class<TChild> arg0, com.hp.lft.sdk.Description arg1) throws com.hp.lft.sdk.GeneralLeanFtException, java.lang.CloneNotSupportedException 
+		{
+			return getConcrete().findChildren(arg0, arg1);
+		}
+
+		@Override 
+		public java.awt.Point getAbsoluteLocation() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getAbsoluteLocation();
+		}
+
+		@Override 
+		public java.lang.String getAccessibleName() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getAccessibleName();
+		}
+
+		@Override 
+		public java.lang.String getAttachedText() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getAttachedText();
+		}
+
+		@Override 
+		public com.hp.lft.sdk.stdwin.ToolBarButton getButton(java.lang.String arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getButton(arg0);
+		}
+
+		@Override 
+		public java.util.List<com.hp.lft.sdk.stdwin.ToolBarButton> getButtons() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getButtons();
+		}
+
+		@Override 
+		public java.lang.String getDisplayName()  
+		{
+			return getConcrete().getDisplayName();
+		}
+
+		@Override 
+		public int getHandle() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getHandle();
+		}
+
+		@Override 
+		public java.awt.Point getLocation() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getLocation();
+		}
+
+		@Override 
+		public java.lang.String getNativeClass() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getNativeClass();
+		}
+
+		@Override 
+		public java.util.List<com.hp.lft.sdk.stdwin.ToolBarButton> getSelectedButtons() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getSelectedButtons();
+		}
+
+		@Override 
+		public java.awt.Dimension getSize() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getSize();
+		}
+
+		@Override 
+		public java.awt.image.RenderedImage getSnapshot() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getSnapshot();
+		}
+
+		@Override 
+		public java.lang.String getText() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getText();
+		}
+
+		@Override 
+		public java.awt.Rectangle[] getTextLocations(java.lang.String arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getTextLocations(arg0);
+		}
+
+		@Override 
+		public java.awt.Rectangle[] getTextLocations(java.lang.String arg0, java.awt.Rectangle arg1) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getTextLocations(arg0, arg1);
+		}
+
+		@Override 
+		public java.lang.String getVisibleText() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getVisibleText();
+		}
+
+		@Override 
+		public java.lang.String getVisibleText(java.awt.Rectangle arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getVisibleText(arg0);
+		}
+
+		@Override 
+		public java.lang.String getWindowClassRegExp() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getWindowClassRegExp();
+		}
+
+		@Override 
+		public java.util.EnumSet<com.hp.lft.sdk.WindowExtendedStyles> getWindowExtendedStyle() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getWindowExtendedStyle();
+		}
+
+		@Override 
+		public long getWindowExtendedStyleAsLong() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getWindowExtendedStyleAsLong();
+		}
+
+		@Override 
+		public int getWindowId() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getWindowId();
+		}
+
+		@Override 
+		public java.util.EnumSet<com.hp.lft.sdk.WindowStyles> getWindowStyle() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getWindowStyle();
+		}
+
+		@Override 
+		public long getWindowStyleAsLong() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getWindowStyleAsLong();
+		}
+
+		@Override 
+		public java.lang.String getWindowTitleRegExp() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().getWindowTitleRegExp();
+		}
+
+		@Override 
+		public void highlight() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().highlight();
+		}
+
+		@Override 
+		public <TChild extends TestObject> int highlightMatches(java.lang.Class<TChild> arg0, com.hp.lft.sdk.Description arg1) throws com.hp.lft.sdk.GeneralLeanFtException, java.lang.CloneNotSupportedException 
+		{
+			return getConcrete().highlightMatches(arg0, arg1);
+		}
+
+		@Override 
+		public boolean isEnabled() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().isEnabled();
+		}
+
+		@Override 
+		public boolean isFocused() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().isFocused();
+		}
+
+		@Override 
+		public boolean isRightAligned() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().isRightAligned();
+		}
+
+		@Override 
+		public boolean isRightToLeftLayout() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().isRightToLeftLayout();
+		}
+
+		@Override 
+		public boolean isRightToLeftReading() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().isRightToLeftReading();
+		}
+
+		@Override 
+		public boolean isVisible() throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			return getConcrete().isVisible();
+		}
+
+		@Override 
+		public void mouseMove(com.hp.lft.sdk.Location arg0) throws com.hp.lft.sdk.GeneralLeanFtException 
+		{
+			getConcrete().mouseMove(arg0);
 		}
 
 		@Override 

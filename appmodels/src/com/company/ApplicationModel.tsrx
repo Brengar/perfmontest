@@ -41,6 +41,18 @@
                         </object>
                     </children>
                 </object>
+                <object type="ToolBar" technology="Standard Windows">
+                    <name>ToolbarWindow32</name>
+                    <codeName>toolbarWindow32ToolBar</codeName>
+                    <description></description>
+                    <identification>
+                        <properties>
+                            <property name="NativeClass" type="string" isRegExp="false">ToolbarWindow32</property>
+                            <property name="Text" type="string" isRegExp="false"></property>
+                            <property name="WindowId" type="int" isRegExp="false">4098</property>
+                        </properties>
+                    </identification>
+                </object>
             </children>
         </object>
     </objects>
