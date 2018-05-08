@@ -2,10 +2,7 @@ package steps;
 
 import com.hp.lft.sdk.Desktop;
 import com.hp.lft.sdk.GeneralLeanFtException;
-import com.hp.lft.sdk.Keyboard;
-import com.hp.lft.sdk.WaitUntilTestObjectState;
 import com.hp.lft.sdk.stdwin.TreeViewNode;
-import com.hp.lft.sdk.stdwin.Window;
 import src.com.company.ApplicationModel;
 import src.com.company.ApplicationModel.mainwindow;
 
@@ -15,17 +12,16 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-import static com.hp.lft.sdk.WaitUntilTestObjectState.waitUntil;
-import static junit.framework.TestCase.assertTrue;
-
 public class PerfMonSteps {
 
     private static ApplicationModel appModel;
-    private static byte i;
 
-    public static void start() throws GeneralLeanFtException, InterruptedException {
+    /**
+     * Данный метод запускает perfmon.exe, оздает новую ApplicationModel
+     * @throws GeneralLeanFtException
+     */
+    public static void start() throws GeneralLeanFtException {
         Desktop.launchAut("perfmon.exe");
-        i=1;
         appModel = new ApplicationModel();
         appModel.mainwindow().maximize();
     }
@@ -50,22 +46,30 @@ public class PerfMonSteps {
         for (int i=0;i<nodeList.size();i++){
             if (!nodeList.get(i).isExpanded()) {
                 tree.select(i);
+                saveImage(Integer.toString(i));
                 toolbar.getButtons().get(0).press();
-                saveImage();
             }
         }
     }
 
+    /**
+     * Данный метод закрывает окно perfmon.exe
+     * @throws GeneralLeanFtException
+     */
     public static void end() throws GeneralLeanFtException {
         appModel.mainwindow().close();
     }
 
-    private static void saveImage() throws GeneralLeanFtException {
+    /**
+     * Данный метод сохраняет изображение из perfmon.exe в папку results
+     * @param name имя файла в который сохраняется изображение
+     * @throws GeneralLeanFtException
+     */
+    private static void saveImage(String name) throws GeneralLeanFtException {
         try {
             BufferedImage bi = (BufferedImage)appModel.mainwindow().getSnapshot();
-            File outputfile = new File("results/"+i+".png");
+            File outputfile = new File("results/"+name+".png");
             ImageIO.write(bi, "png", outputfile);
-            i++;
         } catch (IOException e) {
         }
     }
